@@ -17,13 +17,13 @@ def simple_driver_to_login_at_pythonanywhere():
 
    # finding user-name field
    try:
-      driver.find_element(By.XPATH,'/html/body/div[1]/div[2]/div/div/form/p[1]/input').send_keys('scrappers')
+      driver.find_element(By.XPATH,'/html/body/div[1]/div[2]/div/div/form/p[1]/input').send_keys('your_user_name')
    except:
       print('No username is found')
 
    # user password
    try:
-      driver.find_element(By.XPATH,'/html/body/div[1]/div[2]/div/div/form/p[2]/input').send_keys('databasereal1437@')
+      driver.find_element(By.XPATH,'/html/body/div[1]/div[2]/div/div/form/p[2]/input').send_keys('your_password_here')
    except:
       print('No password is found')
 
